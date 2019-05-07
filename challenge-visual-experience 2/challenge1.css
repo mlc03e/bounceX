@@ -1,0 +1,105 @@
+/*************************
+ *  your code goes here  *
+ *************************/
+.bxc .bx-creative {
+  background-color: #ffc300;
+  color: #040066;
+
+}
+.topGroup {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin-left: 40%;
+}
+.bxc .bx-creative img {
+  width: 150%;
+  margin-top: 2%;
+}
+.bxc .bx-row-subheadline-1 {
+  font-size: 2vw;
+  font-weight: lighter;
+}
+.bxc .bx-row-headline-1 {
+  font-size: 4vw;
+  font-weight: bolder;
+
+}
+.bxc .bx-row-headline {
+  font-size: 6vw;
+  font-weight: bolder;
+  margin-top: 0;
+
+}
+.bx-group bx-group-2 {
+  display: flex;
+  flex-direction: column;
+}
+.bxc .bx-creative .bx-row-submit {
+  display: flex;
+  margin-left: 22%;
+  padding-bottom: 10%;
+  width: 55%;
+
+}
+#aroundInput {
+  width: 75%;
+
+}
+#aroundArrow {
+  width: 25%;
+
+}
+.bxc .bx-creative input[type="submit"] {
+  background-image: linear-gradient(#2557a6, #000070);
+  width: 100%;
+  outline: none;
+  z-index: 1;
+  border-style: none;
+  padding-left: 5%;
+  font-size: 2vw;
+  box-shadow: 0 10px 5px -5px #d6a311;
+}
+
+#arrow {
+  height: 72%;
+  width: 100%;
+  background-image: linear-gradient(#2557a6, #000070);
+  padding: 15%;
+  border-right-width: 2px;
+  border-style: solid;
+  border-image:
+    linear-gradient(
+      to top,
+      #ffffff,
+      rgba(1, 0, 0, 0)
+    ) 1 90%;
+  box-shadow: 0 10px 5px -5px #d6a311;
+  }
+  #unlock {
+    max-width: 30%;
+    transform: rotateZ(-45deg);
+    /* padding: 2%; */
+  }
+ #logoId {
+   width: 40%;
+ }
+.bxc .bx-creative input[type="email"] {
+  width: 55%;
+  max-height: 40px;
+  box-shadow: 0 10px 5px -5px #d6a311;
+  border-color: #e8e8e8;
+  text-align: center;
+  
+}
+#triangleShadow {
+  width: 50%;
+  height: 100%;
+  margin-left: 30%;
+  box-shadow: 0 10px 5px -5px #d6a311;
+  transform: rotateZ(45deg);
+  /* top: 5%; */
+  padding: 1%;
+  /* margin-bottom: 20%; */
+  background-image: linear-gradient(to right, #ffcb00, #ffb902);
+}
